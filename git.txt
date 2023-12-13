@@ -1,0 +1,12 @@
+
+//one-time setuo for each project
+1. git init
+2. git remote add origin https://github.com/xeeteex/htmlcodes 
+    to check step 2
+    3. git remote -v
+
+//regular codes..
+1. git status
+2. git add .
+3. git commit -m "html-css"
+4. git push

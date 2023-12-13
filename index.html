@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+         external css
+         if there is common design accross multiple files/pages
+     -->
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+    <!--
+         internal css 
+         if there is some unique design for this specific index.html page
+    -->
+    <style>
+        /* comment ctrl+ / */
+        /* css syntax
+            <selector> {
+                <css-property> : <property-value>;
+                <css-property> : <property-value>;
+            }
+            
+            selector
+                element / tag
+                id
+                class
+        */
+
+        * {
+            background-color: rgb(226, 228, 196);
+        }
+
+
+        .spacing {
+            margin-right: 5em;
+            display: inline;
+        }
+
+        header ul {
+            padding: 0;
+        }
+
+        .none {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-decoration: dotted;
+        }
+
+
+        h1 {
+            color: rgb(12, 17, 21);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(12, 17, 21);
+            text-decoration: underline;
+        }
+
+        p {
+            text-transform: capitalize;
+            text-align: justify;
+        }
+
+        /* header li{
+            margin-left: 16px;
+            display: inline;
+        } */
+
+        img {
+            height: 100px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <!-- <li><a href="#" style="color:red;text-decoration: underline;">home </a></li> -->
+                <li class="spacing"><span><a class="none" href="#" class="active">home </a></span></li>
+                <li class="spacing"><span><a class="none" href="./about.html">about </a></span></li>
+                <li class="spacing"><span><a class="none" href="./contact.html">contact </a></span></li>
+                <li class="spacing"><span><a class="none" href="./courses/all-courses.html">all courses</a></span></li>
+                <li class="spacing"><span><a class="none" href="./courses/current/current-courses.html">current
+                            courses</a></span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Hyper text markup language (HTML)</h1>
+    <p>
+        web delopment is .. dolor sit amet consectetur adipisicing elit. Sequi ducimus veniam maiores laboriosam
+        voluptatum
+        dolor rerum, molestiae consequatur error? Earum dolor ut cupiditate, nemo sunt pariatur id natus animi! Veniam.
+    </p>
+    <h2> Element </h2>
+    <p>
+        elemnet/tags are ...Lorem ipsum do Voluptatibus culpa eveniet neque, nobis accusamus quia sit provident.
+    </p>
+    <h2>Attribute</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, sit.
+    </p>
+
+    <h2>Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>quanity</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>mouse</td>
+                <td>1</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>keyboard</td>
+                <td>2</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>400</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Email</th>
+            </tr>
+            <tr>
+                <th>first</th>
+                <th>last</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ram</td>
+                <td>bdr</td>
+                <td>ram@ram.com</td>
+            </tr>
+            <tr>
+                <td>ram</td>
+                <td>bdr</td>
+                <td>ram@ram.com</td>
+            </tr>
+            <tr>
+                <td>ram</td>
+                <td>bdr</td>
+                <td>ram@ram.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Css</h2>
+    <ul>
+        <li>inline css</li>
+        <li>internal css</li>
+        <li>external css</li>
+    </ul>
+
+    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*1MjNCWMrwj_Gkfrj.jpg" alt="">
+
+    <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*dspCRVCpRgFRaUozxDpucA.png          "
+        alt="nodejs logo">
+
+    <img src="./assets/images/glasses.jpg" alt="sunglasses">
+
+    <footer>
+        <a href="https://www.facebook.com" target="_blank">facebook</a>
+        <a href="https://www.youtube.com">youtube</a>
+    </footer>
+
+</body>
+
+</html>

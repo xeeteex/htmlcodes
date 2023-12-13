@@ -1,0 +1,9 @@
+tags
+    html body elements p
+    -should have a closing tag
+attributes
+        <html lang="en">
+        lang in html4
+        -defines the tags
+        href, target, content, lang
+           

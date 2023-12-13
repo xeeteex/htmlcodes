@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: content-box;
+        }
+
+        .parentbox-rem{
+            border: 1px solid;
+            padding: 32px;
+            padding: 1rem;
+            font-size: 1px;
+
+
+        }
+
+        .parentbox-rem .box{
+            border: 1px solid;
+            padding: 32px;
+            padding: 2rem;
+            font-size: 1px;
+
+
+        }
+
+        .parentbox-em{
+            border: 1px solid;
+            font-size: 16px;
+            font-size: 10px;
+
+
+        }
+        .parent {
+            width: 400px;
+            height: 400px;
+            background-color: + rgb(224, 224, 227);
+            border: 1px solid;
+        }
+
+        .children {
+            width: 10px;
+            height: 50%;
+            background-color: rgb(105, 105, 125);
+            border: 1px solid;
+
+        }
+        .banner{
+            /* max-height: 100%;
+            height: 20vh; */
+/* width: 50vw; */
+        width: 100%;
+}
+    </style>
+</head>
+
+<body>
+    <div id="banner" class="banner">
+        <img src="https://picsum.photos/id/237/1920/1080" alt="abc">
+    </div>
+    <h1>Measurement units</h1>
+
+    <ul>
+        <li>px</li>
+
+        <li>
+            <h2>% percentage</h2>
+        </li>
+        <div class="parent">
+
+            <div class="children">
+                <p>child 1</p>
+
+            </div>
+
+            <div class="children">
+                <p>child 2</p>
+
+            </div>
+
+        </div>
+        <li>
+            <h2 class="parentbox-rem">rem</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum accusamus beatae saepe atque
+                explicabo maxime neque odit error aliquid delectus, rerum distinctio nesciunt.
+        </li>
+
+
+        <li>
+            <h2 class="parentbox-em">em</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum accusamus beatae saepe atque
+                explicabo maxime neque odit error aliquid delectus, rerum distinctio nesciunt.
+        </li>
+
+        <li>
+            <h2>vh</h2>
+            
+
+        </li>
+
+        <li>vm</li>
+    </ul>
+
+</body>
+
+</html>
