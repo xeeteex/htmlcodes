@@ -8,7 +8,9 @@
 //regular codes..
 1. git status //html
 2. git add .
-        git add git.txt
+        git add git.txt //add a new file to git
 3. git commit -m "html-css"
 4. git push
-ab
+
+setup to the path
+git clone https://github.com/sagartmg2/mangsir-2
